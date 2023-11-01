@@ -13,6 +13,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <groovy.verson>4.0.15</groovy.verson>
+        <fastjson.verson>2.0.41</fastjson.verson>
     </properties>
 
     <dependencies>
@@ -21,6 +22,13 @@
             <groupId>org.apache.groovy</groupId>
             <artifactId>groovy</artifactId>
             <version>${groovy.verson}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.verson}</version>
         </dependency>
     </dependencies>
 </project>
